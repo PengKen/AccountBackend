@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "nodemon": "nodemon ./bin/www --exec babel-node --presets es2015,stage-2",
+    "nodemon": "nodemon ./bin/www",
     "pm2": "pm2 start ./bin/www --watch -i 2 --max-memory-restart 20M",
     "build": "babel lib -d dist --presets es2015,stage-2",
     "serve": "node dist/index.js",
@@ -15,6 +15,7 @@
     "express": "~4.16.0",
     "heapdump": "^0.3.11",
     "http-errors": "~1.6.2",
+    "jade": "^1.11.0",
     "log4js": "^3.0.6",
     "moment": "^2.22.2",
     "mongoose": "^5.3.11",

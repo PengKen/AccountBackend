@@ -4,13 +4,13 @@ var errorLog = log4js.getLogger("errorLog"); //此处使用category的值
 var resLog = log4js.getLogger("responseLog"); //此处使用category的值
 
 var log = {};
-log.i = function(req, resTime) {
+log.response = function(req, resTime) {
     if (req) {
         resLog.info(formatRes(req, resTime));
     }
 };
 
-log.e = function(ctx, error, resTime) {
+log.error = function(ctx, error, resTime) {
     if (ctx && error) {
         errorLog.error(formatError(ctx, error, resTime));
     }
@@ -51,7 +51,7 @@ var formatReqLog = function(req, resTime) {
 };
 
 //格式化响应日志
-var xformatRes = function(res, resTime) {
+var formatRes = function(res, resTime) {
     var logText = new String();
     //响应日志开始
     logText += "\n" + "*************** response log start ***************" + "\n";
