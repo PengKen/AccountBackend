@@ -46,3 +46,504 @@ response body:
 {}
 *************** response log end ***************
 
+[2018-11-22T12:46:57.609] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T12:47:51.889] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T12:49:44.431] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T12:52:03.830] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T13:17:07.788] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T13:17:29.143] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T13:17:29.558] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T13:54:04.250] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T13:54:40.359] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T14:18:27.191] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T14:18:46.217] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T14:21:27.575] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T14:23:51.025] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T14:24:40.778] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T14:25:00.565] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T14:56:36.613] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T15:00:47.143] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T15:04:54.452] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T15:38:39.855] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /test
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T15:40:55.016] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 404
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T15:44:11.061] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T15:44:12.462] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 500
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T19:43:42.997] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T19:44:33.075] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T20:29:44.154] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{"name":"aaa"}
+response time: 0
+response status: 200
+response body: 
+{"name":"aaa"}
+*************** response log end ***************
+
+[2018-11-22T21:31:20.285] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{"name":"aaa"}
+response time: 0
+response status: 200
+response body: 
+{"name":"aaa"}
+*************** response log end ***************
+
+[2018-11-22T21:36:40.041] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{"name":"aaa"}
+response time: 0
+response status: 200
+response body: 
+{"name":"aaa"}
+*************** response log end ***************
+
+[2018-11-22T21:37:34.024] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{"name":"aaa"}
+response time: 0
+response status: 200
+response body: 
+{"name":"aaa"}
+*************** response log end ***************
+
+[2018-11-22T21:38:27.936] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{"name":"aaa"}
+response time: 0
+response status: 200
+response body: 
+{"name":"aaa"}
+*************** response log end ***************
+
+[2018-11-22T21:38:56.719] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{"name":"aaa"}
+response time: 0
+response status: 200
+response body: 
+{"name":"aaa"}
+*************** response log end ***************
+
+[2018-11-22T21:39:20.157] [INFO] responseLog - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /register
+request client ip:  null
+request body: 
+{"name":"aaa"}
+response time: 0
+response status: 200
+response body: 
+{"name":"aaa"}
+*************** response log end ***************
+
+[2018-11-22T23:03:23.607] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/balances/1
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:03:23.617] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/accounts/1?type=recently
+request client ip:  null
+request query:  {"type":"recently"}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:37:34.782] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/balances/1
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:37:34.833] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/accounts/1?type=recently
+request client ip:  null
+request query:  {"type":"recently"}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:38:07.695] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/balances/1
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:38:07.788] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/accounts/1?type=recently
+request client ip:  null
+request query:  {"type":"recently"}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:42:04.106] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/balances/1
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:42:04.112] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/accounts/1?type=recently
+request client ip:  null
+request query:  {"type":"recently"}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:43:00.561] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/balances/1
+request client ip:  null
+request query:  {}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+
+[2018-11-22T23:43:00.601] [INFO] responseLog - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/accounts/1?type=recently
+request client ip:  null
+request query:  {"type":"recently"}
+response time: 0
+response status: 304
+response body: 
+{}
+*************** response log end ***************
+

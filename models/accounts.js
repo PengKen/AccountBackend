@@ -15,7 +15,7 @@ const AccountSchema = new Schema({
 });
 
 
-UserSchema.index({userId: 1}, {unique: true});
+AccountSchema.index({userId: 1}, {unique: true});
 
-mongoose.model('Accounts', ClientSchema);
+mongoose.model('Accounts', AccountSchema);
 

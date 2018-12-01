@@ -3,12 +3,12 @@ var path = require("path");
 var fs = require("fs");
 var basePath = path.resolve(__dirname, "");
 
-var errorPath = basePath + "/errors/";
-var resPath = basePath + "/responses/";
-
+var errorPath = basePath + "/errors"; //request-error
+var resPath = basePath + "/responses"; //response-error
+var DBerrorPath =  basePath + '/DBerrors'
 var errorFilename = errorPath + "/error";
 var resFilename = resPath + "/response";
-
+var DBerrFilename = DBerrorPath + '/DBerr'
 /**
  * 确定目录是否存在，如果不存在则创建目录
  */
@@ -31,10 +31,17 @@ log4js.configure({
             filename: resFilename,
             alwaysIncludePattern: true,
             pattern: "-yyyy-MM-dd.log"
+        },
+        DBerrLog:{
+            type: "dateFile",
+            filename: DBerrFilename,
+            alwaysIncludePattern: true,
+            pattern: "-yyyy-MM-dd.log"
         }
     },
     categories: {
         errorLog: { appenders: ['errorLog'], level: 'error' },
+        DBerrLog :{ appenders:['DBerrLog'], level: 'error'},
         responseLog: { appenders: ["responseLog"], level: "info" },
         default: { appenders: ['responseLog','errorLog',], level: 'trace' }
     },

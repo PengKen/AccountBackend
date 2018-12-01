@@ -2,7 +2,7 @@ var log4js = require("./config");
 
 var errorLog = log4js.getLogger("errorLog"); //此处使用category的值
 var resLog = log4js.getLogger("responseLog"); //此处使用category的值
-
+var DBerrLog = log4js.getLogger("DBerrLog");  //此处使用category的值
 var log = {};
 log.response = function(req, resTime) {
     if (req) {
@@ -13,6 +13,13 @@ log.response = function(req, resTime) {
 log.error = function(ctx, error, resTime) {
     if (ctx && error) {
         errorLog.error(formatError(ctx, error, resTime));
+    }
+};
+
+
+log.DBerr = function(error) {
+    if (error) {
+        DBerrLog.error(formatDBError(error));
     }
 };
 
@@ -88,6 +95,31 @@ var formatError = function(ctx, err, resTime) {
 
     logText += "err message: " + err.message + "\n";
     //错误详情
+    logText += "err status: " + (err.status || 500) + "\n";
+    logText += "err stack: " + err.stack + "\n";
+
+
+    //错误信息结束
+    logText += "*************** error log end ***************" + "\n";
+
+    return logText;
+};
+
+
+//格式化数据库错误日志
+var formatDBError = function(err){
+    var logText = new String();
+
+    //错误信息开始
+    logText += "\n" + "*************** error log start ***************" + "\n";
+
+    //错误名称
+
+    logText += "err name: " + err.name + "\n";
+    //错误信息
+
+    logText += "err message: " + err.message + "\n";
+    //错误详情
 
     logText += "err stack: " + err.stack + "\n";
 
@@ -95,6 +127,6 @@ var formatError = function(ctx, err, resTime) {
     logText += "*************** error log end ***************" + "\n";
 
     return logText;
-};
+}
 
 module.exports = log;

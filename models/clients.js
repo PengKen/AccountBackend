@@ -11,6 +11,6 @@ const ClientSchema = new Schema({
 });
 
 
-UserSchema.index({userId: 1}, {unique: true});
+ClientSchema.index({userId: 1}, {unique: true});
 
 mongoose.model('Clients', ClientSchema);
