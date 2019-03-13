@@ -18,9 +18,10 @@
   /**
   * commonjs 规范，执行时才知道输入输出，这里require了，对应的文件才会去执行
   */
- require('./users')
-
- exports.Users = mongoose.model('Users')
+  require('./users')
+require('./clients')
  exports.Clients = mongoose.model('Clients')
+ exports.Users = mongoose.model('Users')
+
  exports.Accounts = mongoose.model('Accounts')
  exports.Cargoes = mongoose.model('Cargoes')

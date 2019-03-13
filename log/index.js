@@ -48,7 +48,9 @@ var formatReqLog = function(req, resTime) {
     if (method === "GET") {
         logText += "request query:  " + JSON.stringify(req.query) + "\n";
     } else {
+        // req.files ? (logText += "response files: " + "\n" + JSON.stringify(req.files) + "\n") : null;
         logText += "request body: " + "\n" + JSON.stringify(req.body) + "\n";
+        // logText += "request userId: " + "\n" + JSON.stringify(req.body.userId) + "\n";
     }
 
     //服务器响应时间
